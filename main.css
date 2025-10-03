@@ -1,0 +1,192 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+header {
+  background: #fff;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo h1 {
+  color: #e05268;
+  font-size: 20px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a.active {
+  color: #e05268;
+}
+
+
+
+.btn {
+  background-color: #f50707;
+  color: #fefcfc;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #f5f3f4;
+  color: #f50707;
+}
+
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url('./images/image\ 4.png') no-repeat center/cover;
+  color: #fff;
+  padding: 80px;
+}
+
+.banner-text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.banner-img img {
+  width: 300px;
+}
+
+
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.service-box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.service {
+  max-width: 400px;
+  text-align: left;
+}
+
+.service img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.contact {
+  background: #65aebb;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.map img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 540px;
+}
+
+.form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn.green {
+  background: #27ae60;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer .logo h1 {
+  color: #e05268;
+}
+
+footer nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer nav ul li a.active {
+  color: #e05268;
+}
